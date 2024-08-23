@@ -1,0 +1,20 @@
+name: SpawnerPickaxe
+version: '${project.version}'
+main: kteproject.spawnerpickaxe
+api-version: '1.16'
+authors: [KaanFlod]
+description: SpawnerPickaxe
+website: https://discord.gg/a2Twzthnpa
+commands:
+  spawnerpickaxe:
+    description: "Oyuncuya Spawner Pickaxe Verme Komudu."
+    usage: /spawnerpickaxe <player>
+    permission: spawnerpickaxe.admin
+  spawnerreload:
+    description: "SpawnerPickaxe yapılandırmasını yeniden yükler"
+    usage: /spawnerreload
+    permission: spawnerpickaxe.reload
+  spawnergive:
+    description: "Spawner Verme Komudu"
+    usage: /spawnergive
+    permission: spawnerpickaxe.give
