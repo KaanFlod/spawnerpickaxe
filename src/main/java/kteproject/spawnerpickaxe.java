@@ -153,7 +153,7 @@ public final class spawnerpickaxe extends JavaPlugin implements CommandExecutor,
                 try {
                     entityType = EntityType.valueOf(spawnerType);
                 } catch (IllegalArgumentException e) {
-                    sender.sendMessage(ChatColor.RED + "Geçersiz spawner türü: " +ChatColor.BOLD+ spawnerType);
+                    sender.sendMessage(ChatColor.RED + "Geçersiz spawner türü: " +ChatColor.BOLD+ChatColor.BLUE+ spawnerType);
                     return true;
                 }
 
